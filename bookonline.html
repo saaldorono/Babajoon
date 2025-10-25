@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Baba Joon | Book Online</title>
+  <link rel="stylesheet" href="bookonline.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.png" alt="Baba Joon Logo">
+      <span>BABA JOON</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a class="login" href="login.html">&#128100</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="giftcard.html">Gift Card</a></li>
+        <li><a href="bookonline.html" class="active">Book Online</a></li>
+        <li><a href="#" id="logoutBtn">Logout</a></li> 
+        <li><span id="username">Guest</span></li> 
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <div class="booking-card">
+    <div class="header1">
+      <img src="images/logo.png" alt="Baba Joon Logo">
+      <div>
+        <h3>Baba Joon Persian Grill</h3>
+        <p>3106 Surfers Paradise Boulevard, QLD</p>
+        <p><strong>BOOK ONLINE</strong></p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Select Date</h4>
+      <input type="date" id="bookingDate">
+    </div>
+
+    <div class="section">
+      <h4>Booking for</h4>
+      <div class="options">
+        <label><input type="radio" name="session" value="Day"> Day</label>
+        <label><input type="radio" name="session" value="Evening" checked> Evening</label>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Booking for People</h4>
+      <div class="counter">
+        <button type="button" id="minus">−</button>
+        <input type="text" id="people" value="2" readonly>
+        <button type="button" id="plus">+</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <h4>Select a Time</h4>
+      <div class="times" id="times"></div>
+    </div>
+
+    <button class="submit-btn" onclick="submitBooking()">Next</button>
+  </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  border-bottom: 2px solid #f4c542;
+}
+
+section {
+  padding: 60px 50px;
+  text-align: center;
+}
+#username {
+  background-color: #b8860b;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+
+
+/* Footer */
+.site-footer {
+  background: #eee;
+  padding: 1.1rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+  max-width: 1200px;  
+  margin: 0 auto;     
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;     
+}
+
+.menu-items{
+    text-align: center;
+
+}
+
+.map-section{
+    text-align: center;
+}
+
+.map-section img{
+    height: 30%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-grid1 {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.gallery-grid1 img {
+  display: none;
+  width: 90%;             
+  max-width: 1000px;       
+  height: auto;           
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  margin: 20px auto;
+}
+
+.pagination1 {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.page-btn {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 8px 15px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.page-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.page-btn.active {
+  background-color: #333;
+  color: white;
+  border-color: #333;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #22201f;
+  color: white;
+  cursor: pointer;
+}

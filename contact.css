@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav ul li a.active {
+  border-bottom: 2px solid #f4c542;
+}
+#username {
+  background-color: #b8860b;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  margin-left: 5px;
+  text-transform: uppercase;
+}
+/* Contact Section */
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 120px;
+  gap: 60px;
+}
+
+.contact-info, .contact-form {
+  flex: 1;
+}
+
+.contact-info h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  min-height: 100px;
+}
+
+.form-buttons {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+
+.btn-send {
+  background: #f4c542;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-clear {
+  background: #ccc;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Map Section */
+.map-section {
+  background: #111;
+  text-align: center;
+  padding: 40px;
+}
+
+.map-section img {
+    height: 30%;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.site-footer {
+  background: #eee;
+  padding: 1.1rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer-inner {
+  max-width: 1200px;  
+  margin: 0 auto;     
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;     
+}
+.map-section{
+    text-align: center;
+}
+
+.map-section img{
+    height: 30%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50%;
+  background: #22201f;
+  color: white;
+  cursor: pointer;
+}

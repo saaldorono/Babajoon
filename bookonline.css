@@ -1,0 +1,190 @@
+    body {
+    margin: 0;
+    font-family: "Georgia", serif;
+    color: #222;
+    line-height: 1.6;
+    }
+
+    header {
+    background: #111;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    }
+
+    header .logo {
+    display: flex;
+    align-items: center;
+    }
+
+    header .logo img {
+    width: 50px;
+    margin-right: 10px;
+    }
+
+    header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    }
+
+    header nav ul li a {
+    color: white;
+    text-decoration: none;
+    }
+
+    header nav ul li a.active {
+    border-bottom: 2px solid #f4c542;
+    }
+    #username {
+    background-color: #b8860b;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin-left: 5px;
+    text-transform: uppercase;
+    }
+
+    main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 100px); 
+    padding-top: 40px;
+    }
+
+    .booking-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      padding: 25px 30px;
+      width: 480px;
+      max-width: 90%;
+      
+    }
+
+    .header1 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .header1 img {
+      width: 60px;
+      border-radius: 50%;
+    }
+
+    .header1 div h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .header1 div p {
+      margin: 0;
+      font-size: 13px;
+      color: #777;
+    }
+
+    .section {
+      margin-bottom: 18px;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      padding: 10px 15px;
+      background: #fafafa;
+    }
+
+    .section h4 {
+      margin: 0 0 10px;
+      color: #444;
+      font-size: 15px;
+    }
+
+    input[type="date"] {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 14px;
+      width: 100%;
+    }
+
+    .options {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .counter {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .counter button {
+      background: #d4af37;
+      border: none;
+      color: #fff;
+      font-size: 18px;
+      padding: 4px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .counter input {
+      width: 40px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 14px;
+      padding: 4px;
+    }
+
+    .times {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+
+    .time-btn {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 6px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 13px;
+      transition: all 0.3s;
+    }
+
+    .time-btn:hover {
+      background: #d4af37;
+      color: #fff;
+      border-color: #d4af37;
+    }
+
+    .selected-time {
+      background: #d4af37;
+      color: #fff;
+      border-color: #d4af37;
+    }
+
+    .submit-btn {
+      width: 100%;
+      background: #222;
+      color: #fff;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .submit-btn:hover {
+      background: #444;
+    }
